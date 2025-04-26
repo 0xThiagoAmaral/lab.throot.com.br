@@ -1,0 +1,13 @@
+entries:
+  - title: Infraestrutura
+    path: docs/infra/
+  - title: Labs
+    path: docs/labs/
+  - title: Blue Team
+    path: docs/blue-team/
+  - title: Red Team
+    path: docs/red-team/
+  - title: Fundamentos
+    path: docs/fundamentos/
+  - title: Portfólio
+    path: docs/portfolio/

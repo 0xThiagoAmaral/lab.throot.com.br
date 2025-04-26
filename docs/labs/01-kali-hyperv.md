@@ -1,0 +1,3 @@
+# Kali Linux no Hyper-V
+
+Configuração inicial...
