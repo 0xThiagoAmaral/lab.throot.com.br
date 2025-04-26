@@ -1,7 +1,9 @@
-title: "ThRoot - HomeLab & Cybersecurity Journey 🚀"
-description: "Portfólio técnico, estudos e publicações sobre Segurança da Informação por Thiago Amaral"
-theme: "just-the-docs"
-url: "https://lab.throot.com.br"
-
+title: ThRoot - HomeLab & Cybersecurity Journey 🚀
+description: Portfólio técnico, estudos e publicações sobre segurança da informação por Thiago Amaral.
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+search_enabled: true
 aux_links:
-  GitHub: https://github.com/0xThiagoAmaral
+  GitHub: https://github.com/0xThiagoAmaral/lab.throot.com.br
+plugins:
+  - jekyll-remote-theme
