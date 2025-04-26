@@ -1,6 +1,6 @@
----
 title: ThRoot - HomeLab & Cybersecurity Journey 🚀
 description: Portfólio técnico, estudos e publicações sobre segurança da informação por Thiago Amaral.
+
 ---
 
 # 👋 Bem-vindo ao meu Laboratório de Segurança
@@ -12,16 +12,20 @@ Este site é mais do que um portfólio — é meu **diário público de estudos*
 ## 🎯 Meus objetivos aqui
 
 ### 🔍 Ser referência em Segurança da Informação
+
 > “Quem não é visto, não é lembrado.”  
-Quero que recrutadores, empresas e a comunidade técnica me reconheçam pelo meu trabalho prático, didático e constante.
+> Quero que recrutadores, empresas e a comunidade técnica me reconheçam pelo meu trabalho prático, didático e constante.
 
 ### 📚 Aprender e ensinar ao mesmo tempo
+
 Documentar tudo o que estudo e aprendo — transformando problemas enfrentados, laboratórios feitos e ferramentas testadas em **conteúdo acessível** para outros.
 
 ### 💸 Monetizar meu conhecimento enquanto estudo
+
 A maior parte do meu tempo é dedicada ao estudo. Por isso, transformo esse tempo em **artigos, vídeos, newsletters e tutoriais**, tudo enquanto aprendo — e mostro que sei.
 
 ### 💼 Construir um portfólio técnico real
+
 Meu conteúdo é baseado em **checklists reais de vagas da área**, como este:
 
 > ✔️ Redes, Sistemas Operacionais, SIEM, Firewalls, IDS/IPS, Proxies, EPP/EDR, Vulnerabilidades, Incidentes, Nuvem, LGPD, MITRE, ISO, OWASP, SANS/CIS...
@@ -52,6 +56,7 @@ Meu conteúdo é baseado em **checklists reais de vagas da área**, como este:
 ## 📬 Assine minha newsletter (em breve)
 
 E receba conteúdo direto no seu e-mail com:
+
 - Novos artigos
 - Dicas de ferramentas
 - Resumos de normas
@@ -62,3 +67,23 @@ E receba conteúdo direto no seu e-mail com:
 Feito com 💻 + ☕ por [@0xThiagoAmaral](https://github.com/0xThiagoAmaral)  
 Powered by GitHub Pages + Just the Docs
 
+=======
+title: "Blog Técnico"
+description: "Lista de publicações técnicas do projeto ThRoot - HomeLab & Cybersecurity Journey."
+
+---
+
+# 📝 Artigos Publicados
+
+Abaixo estão os artigos publicados com base nos labs, estudos e práticas realizadas:
+
+{% for post in site.posts %}
+
+- 📌 [{{ post.title }}]({{ post.url }}) <small>({{ post.date | date_to_string }})</small>
+  {% endfor %}
+
+---
+
+**Dica**: Este blog é gerado automaticamente pelo GitHub Pages com o tema `Just the Docs` e os posts são escritos em Markdown.
+
+> > > > > > > 03c2ef2 (📝 Adiciona post inicial sobre GitHub Pages prático)
