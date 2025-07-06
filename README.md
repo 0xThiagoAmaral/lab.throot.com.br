@@ -62,6 +62,6 @@ E receba conteúdo direto no seu e-mail com:
 ---
 
 Feito com 💻 + ☕ por [@0xThiagoAmaral](https://github.com/0xThiagoAmaral)  
-Powered by GitHub Pages + Just the Docs
+
 
 =======
