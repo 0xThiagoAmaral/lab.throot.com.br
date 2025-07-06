@@ -1,6 +1,3 @@
-title: ThRoot - HomeLab & Cybersecurity Journey 🚀
-description: Portfólio técnico, estudos e publicações sobre segurança da informação por Thiago Amaral.
-
 ---
 
 # 👋 Bem-vindo ao meu Laboratório de Segurança
@@ -64,26 +61,5 @@ E receba conteúdo direto no seu e-mail com:
 
 ---
 
-Feito com 💻 + ☕ por [@0xThiagoAmaral](https://github.com/0xThiagoAmaral)  
-Powered by GitHub Pages + Just the Docs
-
-=======
-title: "Blog Técnico"
-description: "Lista de publicações técnicas do projeto ThRoot - HomeLab & Cybersecurity Journey."
-
----
-
-# 📝 Artigos Publicados
-
-Abaixo estão os artigos publicados com base nos labs, estudos e práticas realizadas:
-
-{% for post in site.posts %}
-
-- 📌 [{{ post.title }}]({{ post.url }}) <small>({{ post.date | date_to_string }})</small>
-  {% endfor %}
-
----
-
-**Dica**: Este blog é gerado automaticamente pelo GitHub Pages com o tema `Just the Docs` e os posts são escritos em Markdown.
 
 > > > > > > > 03c2ef2 (📝 Adiciona post inicial sobre GitHub Pages prático)
