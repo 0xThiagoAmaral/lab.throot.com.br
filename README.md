@@ -45,8 +45,6 @@ Meu conteúdo é baseado em **checklists reais de vagas da área**, como este:
 - [📡 Infraestrutura & Redes](infra/)
 - [🛡 Blue Team Labs](blue-team/)
 - [💣 Red Team Labs](red-team/)
-- [📁 Portfólio Técnico](portfolio/)
-- [🧪 Labs](labs/)
 
 ---
 
