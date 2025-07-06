@@ -65,16 +65,3 @@ Feito com 💻 + ☕ por [@0xThiagoAmaral](https://github.com/0xThiagoAmaral)
 Powered by GitHub Pages + Just the Docs
 
 =======
-
-
-# 📝 Artigos Publicados
-
-Abaixo estão os artigos publicados com base nos labs, estudos e práticas realizadas:
-
-{% for post in site.posts %}
-
-- 📌 [{{ post.title }}]({{ post.url }}) <small>({{ post.date | date_to_string }})</small>
-  {% endfor %}
-
----
-
